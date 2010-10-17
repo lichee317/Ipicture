@@ -1,0 +1,13 @@
+<p>
+  <b>Title:</b>
+  <%=h @test.title %>
+</p>
+
+<p>
+  <b>Body:</b>
+  <%=h @test.body %>
+</p>
+
+
+<%= link_to 'Edit', edit_test_path(@test) %> |
+<%= link_to 'Back', tests_path %>
