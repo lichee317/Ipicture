@@ -1,0 +1,22 @@
+<h1>Listing post2s</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Body</th>
+  </tr>
+
+<% for post2 in @post2s %>
+  <tr>
+    <td><%=h post2.title %></td>
+    <td><%=h post2.body %></td>
+    <td><%= link_to 'Show', post2 %></td>
+    <td><%= link_to 'Edit', edit_post2_path(post2) %></td>
+    <td><%= link_to 'Destroy', post2, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New post2', new_post2_path %>

@@ -1,0 +1,151 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-17 14:27:10) [GET]
+
+
+ActionController::RoutingError (No route matches "/post" with {:method=>:get}):
+    d:/Ruby186/lib/ruby/gems/1.8/gems/actionpack-2.2.3/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/actionpack-2.2.3/lib/action_controller/routing/route_set.rb:390:in `recognize'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/actionpack-2.2.3/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/actionpack-2.2.3/lib/action_controller/dispatcher.rb:112:in `dispatch_unlocked'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/actionpack-2.2.3/lib/action_controller/dispatcher.rb:125:in `dispatch'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/actionpack-2.2.3/lib/action_controller/dispatcher.rb:124:in `synchronize'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/actionpack-2.2.3/lib/action_controller/dispatcher.rb:124:in `dispatch'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/actionpack-2.2.3/lib/action_controller/dispatcher.rb:134:in `dispatch_cgi'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/actionpack-2.2.3/lib/action_controller/dispatcher.rb:41:in `dispatch'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/rails-2.2.3/lib/webrick_server.rb:103:in `handle_dispatch'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/rails-2.2.3/lib/webrick_server.rb:74:in `service'
+    d:/Ruby186/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    d:/Ruby186/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    d:/Ruby186/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    d:/Ruby186/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    d:/Ruby186/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    d:/Ruby186/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    d:/Ruby186/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    d:/Ruby186/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    d:/Ruby186/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    d:/Ruby186/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/rails-2.2.3/lib/webrick_server.rb:60:in `dispatch'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/rails-2.2.3/lib/commands/servers/webrick.rb:66
+    d:/Ruby186/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    d:/Ruby186/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/activesupport-2.2.3/lib/active_support/dependencies.rb:153:in `require'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/activesupport-2.2.3/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/activesupport-2.2.3/lib/active_support/dependencies.rb:153:in `require'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/rails-2.2.3/lib/commands/server.rb:49
+    d:/Ruby186/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    d:/Ruby186/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering d:/Ruby186/lib/ruby/gems/1.8/gems/actionpack-2.2.3/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-10-17 14:27:15) [GET]
+
+
+ActionController::RoutingError (No route matches "/post2" with {:method=>:get}):
+    d:/Ruby186/lib/ruby/gems/1.8/gems/actionpack-2.2.3/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/actionpack-2.2.3/lib/action_controller/routing/route_set.rb:390:in `recognize'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/actionpack-2.2.3/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/actionpack-2.2.3/lib/action_controller/dispatcher.rb:112:in `dispatch_unlocked'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/actionpack-2.2.3/lib/action_controller/dispatcher.rb:125:in `dispatch'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/actionpack-2.2.3/lib/action_controller/dispatcher.rb:124:in `synchronize'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/actionpack-2.2.3/lib/action_controller/dispatcher.rb:124:in `dispatch'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/actionpack-2.2.3/lib/action_controller/dispatcher.rb:134:in `dispatch_cgi'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/actionpack-2.2.3/lib/action_controller/dispatcher.rb:41:in `dispatch'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/rails-2.2.3/lib/webrick_server.rb:103:in `handle_dispatch'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/rails-2.2.3/lib/webrick_server.rb:74:in `service'
+    d:/Ruby186/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    d:/Ruby186/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    d:/Ruby186/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    d:/Ruby186/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    d:/Ruby186/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    d:/Ruby186/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    d:/Ruby186/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    d:/Ruby186/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    d:/Ruby186/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    d:/Ruby186/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/rails-2.2.3/lib/webrick_server.rb:60:in `dispatch'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/rails-2.2.3/lib/commands/servers/webrick.rb:66
+    d:/Ruby186/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    d:/Ruby186/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/activesupport-2.2.3/lib/active_support/dependencies.rb:153:in `require'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/activesupport-2.2.3/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/activesupport-2.2.3/lib/active_support/dependencies.rb:153:in `require'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/rails-2.2.3/lib/commands/server.rb:49
+    d:/Ruby186/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    d:/Ruby186/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering d:/Ruby186/lib/ruby/gems/1.8/gems/actionpack-2.2.3/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-10-17 14:27:18) [GET]
+
+
+Processing PostsController#index (for 127.0.0.1 at 2010-10-17 14:27:18) [GET]
+
+
+MissingSourceFile (no such file to load -- sqlite3):
+    d:/Ruby186/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    d:/Ruby186/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/activesupport-2.2.3/lib/active_support/dependencies.rb:153:in `require'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/activesupport-2.2.3/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/activesupport-2.2.3/lib/active_support/dependencies.rb:153:in `require'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/activesupport-2.2.3/lib/active_support/core_ext/kernel/requires.rb:7:in `require_library_or_gem'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/activesupport-2.2.3/lib/active_support/core_ext/kernel/reporting.rb:11:in `silence_warnings'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/activesupport-2.2.3/lib/active_support/core_ext/kernel/requires.rb:5:in `require_library_or_gem'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/activerecord-2.2.3/lib/active_record/connection_adapters/sqlite3_adapter.rb:10:in `sqlite3_connection'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/activerecord-2.2.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/activerecord-2.2.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/activerecord-2.2.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/activerecord-2.2.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/activerecord-2.2.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/activerecord-2.2.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    d:/Ruby186/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/activerecord-2.2.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/activerecord-2.2.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/activerecord-2.2.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/activerecord-2.2.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:121:in `retrieve_connection'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/activerecord-2.2.3/lib/active_record/connection_adapters/abstract/connection_specification.rb:113:in `connection'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/activerecord-2.2.3/lib/active_record/query_cache.rb:8:in `cache'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/actionpack-2.2.3/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/actionpack-2.2.3/lib/action_controller/base.rb:524:in `send'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/actionpack-2.2.3/lib/action_controller/base.rb:524:in `process_without_filters'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/actionpack-2.2.3/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/actionpack-2.2.3/lib/action_controller/session_management.rb:134:in `process'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/actionpack-2.2.3/lib/action_controller/base.rb:392:in `process'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/actionpack-2.2.3/lib/action_controller/dispatcher.rb:184:in `handle_request'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/actionpack-2.2.3/lib/action_controller/dispatcher.rb:112:in `dispatch_unlocked'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/actionpack-2.2.3/lib/action_controller/dispatcher.rb:125:in `dispatch'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/actionpack-2.2.3/lib/action_controller/dispatcher.rb:124:in `synchronize'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/actionpack-2.2.3/lib/action_controller/dispatcher.rb:124:in `dispatch'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/actionpack-2.2.3/lib/action_controller/dispatcher.rb:134:in `dispatch_cgi'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/actionpack-2.2.3/lib/action_controller/dispatcher.rb:41:in `dispatch'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/rails-2.2.3/lib/webrick_server.rb:103:in `handle_dispatch'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/rails-2.2.3/lib/webrick_server.rb:74:in `service'
+    d:/Ruby186/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    d:/Ruby186/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    d:/Ruby186/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    d:/Ruby186/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    d:/Ruby186/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    d:/Ruby186/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    d:/Ruby186/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    d:/Ruby186/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    d:/Ruby186/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    d:/Ruby186/lib/ruby/1.8/webrick/server.rb:82:in `start'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/rails-2.2.3/lib/webrick_server.rb:60:in `dispatch'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/rails-2.2.3/lib/commands/servers/webrick.rb:66
+    d:/Ruby186/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    d:/Ruby186/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/activesupport-2.2.3/lib/active_support/dependencies.rb:153:in `require'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/activesupport-2.2.3/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/activesupport-2.2.3/lib/active_support/dependencies.rb:153:in `require'
+    d:/Ruby186/lib/ruby/gems/1.8/gems/rails-2.2.3/lib/commands/server.rb:49
+    d:/Ruby186/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    d:/Ruby186/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendered d:/Ruby186/lib/ruby/gems/1.8/gems/actionpack-2.2.3/lib/action_controller/templates/rescues/_trace (46.9ms)
+Rendered d:/Ruby186/lib/ruby/gems/1.8/gems/actionpack-2.2.3/lib/action_controller/templates/rescues/_request_and_response (0.0ms)
+Rendering d:/Ruby186/lib/ruby/gems/1.8/gems/actionpack-2.2.3/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
