@@ -1,0 +1,9 @@
+/* CSS Document */
+.logo{ height:70px; width:220px; margin-left:100px;}
+.title_img{ background-color:#FDFBD0; width:1000px; height:60px; background-image:url(img/±³¾°Í¼4.jpg); background-repeat:no-repeat; margin-left:100px}
+.title_text{ margin-left:110px}
+.register_container{ margin-left:150px; font-family:"Times New Roman", Times, serif; background-color:#FDFBD0; width:350px;height:550px}
+.register_item{ font-size:16px; }
+.illustration{ margin-left:550px; margin-top:-550px; font-family:"Times New Roman", Times, serif; font-size:24px; text-align:center}
+.search_friend{ margin-left:550px; font-size:24px; width:600px}
+.upload_img{ margin-left:550px; font-size:24px; width:600px}

@@ -1,0 +1,33 @@
+/* CSS Document */
+.logo{ height:70px; width:220px;margin-left:100px;}
+.log_in_gray{ background-color:#DEDEDE; width:500px; height:300px; margin-top:50px; margin-left:350px; position:absolute}
+.log_in_white{ background-color:#FFFFFF; width:450px; height:250px; margin-top:75px; margin-left:375px; position:absolute}
+.log_in_information{margin-top:75px; margin-left:375px; width:auto; height:auto; position:absolute; padding-top:25px; padding-left:20px; font-size:24px}
+.username_password{
+	color:#999999;
+	margin-top:120px;
+	margin-left:375px;
+	position:absolute;
+	padding-top:25px;
+	padding-left:20px;
+	font-size:16px;
+	left: 11px;
+	top: 88px;
+}
+.copyright{
+	margin-top:380px;
+	margin-left:375px;
+	width:484px;
+	height:auto;
+	position:absolute;
+	padding-top:25px;
+	padding-left:20px;
+	font-size:12px;
+	border:#DEDEDE;
+	left: -33px;
+	top: 89px;
+	text-align:center
+}
+
+.backgroundimg{height:500px; width:500px; margin-top:180px}
+.table{margin-left:100px; text-align:center; font-family:"Times New Roman", Times, serif; font-size:14px;}

@@ -1,0 +1,16 @@
+/* CSS Document */
+.logo{ height:70px; width:220px;margin-left:100px;}
+
+.icon{ height:300px; width:200px; margin-top:50px;margin-left:100px; float:left; text-align:center;border-color:#FFCCCC; border-style:dashed}
+
+.album_thumb{ height:850px; width:600px; margin-left:20px;margin-top:50px; float:left;border-color:#FFCCCC; border-style:dashed; text-align:center;}
+
+.notice_board{ height:400px; width:250px; margin-left:20px;float:left; text-align:center;border-color:#FFCCCC; border-style:dashed; font-size:16px; font-family:"ËÎÌו"; color:#0000FF}
+
+.operation{ height:400px; width:200px; margin-top:380px; margin-left:100px;border-color:#FFCCCC; border-style:dashed}
+
+.operation_buttom{ margin-top:-500px;}
+
+.friendlist{ height:400px; width:250px; margin-left:950px; margin-top:-400px;border-color:#FFCCCC; border-style:dashed; text-align:center}
+
+
