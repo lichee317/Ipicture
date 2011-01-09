@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="src" path="jmock-2.5.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="com.genuitec.eclipse.j2eedt.core.J2EE14_CONTAINER"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jstl.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/mysql-connector-java-5.0.7-bin.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/standard.jar"/>
+	<classpathentry kind="lib" path="F:/httpunit-1.7/jars/activation-1.1.jar"/>
+	<classpathentry kind="lib" path="F:/httpunit-1.7/jars/js-1.6R5.jar"/>
+	<classpathentry kind="lib" path="F:/httpunit-1.7/jars/jtidy-4aug2000r7-dev.jar"/>
+	<classpathentry kind="lib" path="F:/httpunit-1.7/jars/junit-3.8.1.jar" sourcepath="C:/Documents and Settings/Administrator/.m2/repository/junit/junit/3.8.1/junit-3.8.1-sources.jar"/>
+	<classpathentry kind="lib" path="F:/httpunit-1.7/jars/mail-1.4.jar"/>
+	<classpathentry kind="lib" path="F:/httpunit-1.7/jars/nekohtml-0.9.5.jar"/>
+	<classpathentry kind="lib" path="F:/httpunit-1.7/jars/servlet-api-2.4.jar"/>
+	<classpathentry kind="lib" path="F:/httpunit-1.7/jars/xercesImpl-2.6.1.jar"/>
+	<classpathentry kind="lib" path="F:/httpunit-1.7/jars/xmlParserAPIs-2.6.1.jar"/>
+	<classpathentry kind="lib" path="F:/httpunit-1.7/lib/httpunit.jar"/>
+	<classpathentry kind="lib" path="F:/jmock-2.5.1/bsh-core-2.0b4.jar"/>
+	<classpathentry kind="lib" path="F:/jmock-2.5.1/cglib-2.1_3-src.jar"/>
+	<classpathentry kind="lib" path="F:/jmock-2.5.1/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="F:/jmock-2.5.1/hamcrest-core-1.1.jar"/>
+	<classpathentry kind="lib" path="F:/jmock-2.5.1/hamcrest-library-1.1.jar"/>
+	<classpathentry kind="lib" path="F:/jmock-2.5.1/jmock-2.5.1.jar"/>
+	<classpathentry kind="lib" path="F:/jmock-2.5.1/jmock-junit3-2.5.1.jar"/>
+	<classpathentry kind="lib" path="F:/jmock-2.5.1/jmock-junit4-2.5.1.jar"/>
+	<classpathentry kind="lib" path="F:/jmock-2.5.1/jmock-legacy-2.5.1.jar"/>
+	<classpathentry kind="lib" path="F:/jmock-2.5.1/jmock-script-2.5.1.jar"/>
+	<classpathentry kind="lib" path="F:/jmock-2.5.1/objenesis-1.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/3"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>

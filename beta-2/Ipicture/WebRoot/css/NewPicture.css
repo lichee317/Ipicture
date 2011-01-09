@@ -1,0 +1,15 @@
+/* CSS Document */
+.logo{ height:70px; width:220px; margin-left:100px;}
+.NewPicture{margin-top:75px; margin-left:375px; width:auto; height:auto; position:absolute; padding-top:25px; padding-left:20px; font-size:16px}
+.Picture_in_gray{ background-color:#DEDEDE; width:500px; height:300px; margin-top:50px; margin-left:350px; position:absolute}
+.Picture_in_white{ background-color:#FFFFFF; width:450px; height:250px; margin-top:75px; margin-left:375px; position:absolute}
+.AlbumList{
+	width:auto;
+	height:auto;
+	position:absolute;
+	padding-top:25px;
+	padding-left:20px;
+	font-size:16px;
+	left: 673px;
+	top: 173px;
+}
